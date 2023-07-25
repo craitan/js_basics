@@ -11,7 +11,6 @@
 //     } else if (gender === "f" && age < 16){
 //         console.log("Miss")
 //     }
-
 // }
 
 function personalTitles(input){
@@ -31,7 +30,6 @@ function personalTitles(input){
             console.log("Miss")
         }
     }
-
 }
 
 personalTitles(["12", "f"])
