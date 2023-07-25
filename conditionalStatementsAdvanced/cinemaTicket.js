@@ -1,6 +1,6 @@
 function cinemaTicket(input){
-    let day = input[0]
-    let ticketPrice = 0
+    let day = input[0];
+    let ticketPrice = 0;
 
     if (day === "Monday" || day === "Tuesday" || day === "Friday" ){
         ticketPrice = 12
