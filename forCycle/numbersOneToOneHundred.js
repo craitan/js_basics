@@ -1,7 +1,8 @@
-function numbnumbersOneToOneHundred(){
-    for (let i = 1; i <= 100; i+= 1){
+function numbnumbersOneToOneHundred(input){
+    let n = Number(input[0])
+    for (let i = 1; i <= n; i+= 1){
         console.log(i)
     }
 }
 
-numbnumbersOneToOneHundred()
+numbnumbersOneToOneHundred([100])

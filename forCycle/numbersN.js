@@ -1,5 +1,6 @@
 function numbersN(input){
-    for (i = Number(input[0]); i > 0; i-=1){
+    let n = Number(input[0])
+    for (i = n; i > 0; i-=1){
         console.log(i)
     }
 }
