@@ -1,7 +1,10 @@
 function test(input) {
-    for (let i = Number(input[0]); i <= 12; i +=1) {
-        console.log(i);
-    }
+    let num1 = 1
+    let num2 = 2
+
+    let answer = num1 ** num2
+
+    console.log(answer)
 }
 
 test(['0'])
