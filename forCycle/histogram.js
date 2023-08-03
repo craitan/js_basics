@@ -28,7 +28,7 @@ function histogram(input){
 
     console.log(`${p1Procent.toFixed(2)}%`);
     console.log(`${p2Procent.toFixed(2)}%`);
-    console.log(`${p3Procent.toFixed(2)}%`);
+    console.log(`${p3Procent.toFixed(2)}%`); 
     console.log(`${p4Procent.toFixed(2)}%`);
     console.log(`${p5Procent.toFixed(2)}%`);
 }
